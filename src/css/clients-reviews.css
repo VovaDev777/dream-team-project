@@ -1,6 +1,5 @@
 .client-container {
-    padding-top: 36px;
-    padding-bottom: 60px;
+    padding: 36px 0;
     background-color: #F7FAFF;
 }
 .title-clients {
@@ -56,6 +55,7 @@
     max-width: 343px;
     border-radius: 8px;
     background-color: #fff;
+    padding: 24px;
 }
 
 
@@ -69,7 +69,7 @@
     }
     
 }
-@media screen and (min-width: 375px){
+@media screen and (min-width: 375px) and (max-width: 767px) {
     .container {
         max-width: 375px;
         padding: 0 16px;
@@ -83,11 +83,42 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
     .container {
         max-width: 768px;
         padding: 0 32px;
         margin: 0 auto;
+    }
+    .image-people {
+        width: 56px;
+        height: 56px;
+    }
+    .client-container {
+        padding: 36px 0;
+    }
+    .third-review {
+        display: none;
+    }
+    .people-list {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+    }
+    .people-item {
+        max-width: 344px;
+        height: 319px;
+    }
+    .name {
+        font-size: 20px;
+        line-height: 2.25;
+    }
+    .time-online {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .review {
+        font-size: 18px;
+        line-height: 1.5;
     }
 }
 
@@ -96,5 +127,34 @@
         max-width: 1440px;
         padding: 0 60px;
         margin: 0 auto;
+    }
+    .image-people {
+        width: 56px;
+        height: 56px;
+    }
+    .people-list {
+        display: flex;
+        justify-content: center;
+        gap: 23px;
+    }
+    .people-item {
+        max-width: 424px;
+        height: 306px;
+        padding: 32px;
+    }
+    .name {
+        font-size: 20px;
+        line-height: 2.25;
+    }
+    .time-online {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .review {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .client-container {
+        padding: 60px 0;
     }
 }
