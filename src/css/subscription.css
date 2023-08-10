@@ -1,6 +1,7 @@
 img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 .visually-hidden {
@@ -92,10 +93,14 @@ img {
     gap: 8px;
 }
 
+.custom_checkbox {
+    fill: transparent;
+}
+
 .checkbox:checked + label > .custom_checkbox {
     background-color: var(--blue-font);
     border: 1px solid var(--blue-font);
-    fill: red;
+    fill: #fff;
 }
 
 .btn_send {
@@ -118,11 +123,6 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 704px;
-        padding: 32px 0;
-    }
-    
     .title_subscription {
         font-size: 32px;
         text-align: left;
@@ -148,9 +148,9 @@ img {
     }
 }
 
-@media screen and (min-width: 1400px) {
-    .container {
-        max-width: 1096px;
+@media screen and (min-width: 1440px) {
+    div.wrap_desktop {
+        max-width: 1216px;
     }
 
     .wrap_desktop {

@@ -1,5 +1,4 @@
 @import url('./reset.css');
-@import url('./variables.css');
 @import url('./components.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -10,3 +9,4 @@
 @import url('./clients-reviews.css');
 @import url('./subscription.css');
 @import url('./footer.css');
+@import url('./variables.css');
