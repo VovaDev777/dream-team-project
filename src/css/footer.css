@@ -71,6 +71,7 @@
     line-height: 1.17;
     letter-spacing: 0.099em;
     opacity: 0.6;
+    margin-top: auto;
     }
 .footer-polisy-link{
     font-size: 12px;
@@ -88,4 +89,18 @@
 .footer-social-link svg{
     fill: currentColor;
 }
+.footer-content{
+    display: flex;
+    margin-bottom: 64px;
+} 
+@media screen and (max-width:356px){
+    .footer-contacts-link,
+    .footer-contacts-text,
+    .footer-contacts-email {
+        font-size: 12px;
+        }
+}
+@media screen and (min-width:768px){
     
+}
+
