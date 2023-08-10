@@ -28,3 +28,26 @@
 h1 {
     font-family: var(--accent-font);
 }
+@media screen and (min-width: 375px){
+    .container {
+        max-width: 343px;
+        padding: 16px 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 704px;
+        padding: 32px 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1323px;
+        padding: 60px 0;
+        margin: 0 auto;
+    }
+}
