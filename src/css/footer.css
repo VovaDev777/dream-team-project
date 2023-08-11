@@ -118,7 +118,6 @@
 @media screen and (min-width:768px){
     .footer-section{
         padding: 48px 0 36px;
-        position: relative;
     }
     .footer-navigation{
         display: flex;
@@ -146,10 +145,13 @@
     .footer-navigation-link{
         font-size: 18px;
     }
+    .footer-nav-address-wrap{
+        position: relative;
+    }
     .footer-contacts{
         position: absolute;
-        top: 96px;
-        left: 32px;
+        top: 48px;
+        left: 0px;
     }
     .footer-contacts-list{
         gap: 24px;
