@@ -6,7 +6,7 @@
         Every week we will send you new designs and information about sales.
       </p>
       <form>
-        <label>
+        <label class="labal_email">
           <input
             class="input"
             name="user-name"
@@ -16,15 +16,22 @@
             minlength="2"
             maxlength="16"
           />
+          <svg class="error_icon" width="24" height="24" class="svg_check">
+            <use href="./img/icons.svg#icon-baseline-error"></use>
+          </svg>
         </label>
-        <label>
+        <label class="labal_email">
           <input
             class="input"
             name="user-email"
             type="email"
             required
             placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
           />
+          <svg class="error_icon" width="24" height="24" class="svg_check">
+            <use href="./img/icons.svg#icon-baseline-error"></use>
+          </svg>
         </label>
         <div class="wrap_checkbox">
           <input
