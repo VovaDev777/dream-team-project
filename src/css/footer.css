@@ -130,13 +130,14 @@
         max-width: 127px;
         height: 16px;
         margin-bottom: 32px;
+        transform: translateY(75%);
     }
     .footer-social-item{
         width: 40px;
         height: 40px;
     }
     .footer-navigation-list{
-        /* padding: 8px; */
+        padding: 8px;
         gap: 16px;
         margin-bottom: 0;
         align-self: start;
@@ -149,7 +150,7 @@
     }
     .footer-contacts{
         position: absolute;
-        top: 48px;
+        top: 60px;
         left: 0;
     }
     .footer-contacts-list{
@@ -174,15 +175,10 @@
     }
 }
 @media screen and (min-width:1440px){
-    .footer-section{
-        /* height: 262px; */
-        
-    }
     .footer-navigation{
         gap: 209px;
     }
     .footer-logo{
-        transform: translateY(75%);
         margin-bottom: 0;
     }
     .footer-content{
@@ -191,7 +187,6 @@
     .footer-navigation-list{
         flex-direction: row;
         gap: 30px;
-        padding: 8px;
         /* transform: translateY(-5%); */
     }
     .footer-contacts{
