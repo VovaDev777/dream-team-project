@@ -90,7 +90,7 @@ img {
 @media screen and (min-width: 1440px) {
     .container {
         width: 100%;
-        max-width: 1320px;
+        max-width: 1320px !important;
     }
 
     .list-wrapper {
