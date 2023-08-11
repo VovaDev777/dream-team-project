@@ -1,0 +1,135 @@
+.bs-title {
+  color: var(--blue-font);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+  text-align: center;
+}
+
+.bs-card-title {
+  color: var(--blue-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+.bs-bottom {
+  padding-top: 30px;
+}
+
+.bs-text {
+  color: var(--blue-font);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.bs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* ----------MEDIA---------- */
+@media screen and (max-width: 1439px) {
+  .hide-mob {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .bs-title {
+    color: var(--blue-font);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  .bs-card-title {
+    color: var(--blue-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .bs-text {
+    color: var(--blue-font);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .bs-bottom {
+    display: flex;
+  }
+  .bs-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  .bs-list-item {
+    width: calc((100% - 32px) / 2);
+  }
+  .bs-bottom {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bs-title {
+    color: var(--blue-font);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+  .bs-card-title {
+    color: var(--blue-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .bs-text {
+    color: var(--blue-font);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .bs-wrapper {
+    max-width: 1096px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .bs-img-1 {
+    width: 536px;
+    height: 489px;
+  }
+  .bs-bottom {
+    max-width: 560px;
+    display: flex;
+    padding-top: 0;
+    padding-left: 24px;
+  }
+
+  .bs-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px 20px;
+  }
+  .bs-list-item {
+    width: calc((100% - 20px) / 2);
+  }
+
+  .list-picture {
+    width: 258px;
+    height: 193px;
+  }
+}
