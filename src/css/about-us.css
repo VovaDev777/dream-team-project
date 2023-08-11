@@ -1,5 +1,6 @@
 .about_us{
     background-color: var(--light-blue);
+    padding-bottom: 64px;
 }
 .about_first{
     padding: 64px 16px;
@@ -90,6 +91,7 @@
     .about_us{
         background-color:#FFF;
         padding-top: 100px;
+        padding-bottom: 100px;
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -122,9 +124,6 @@
     .about_second{
         max-width: 704px;
         margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }
 
@@ -132,7 +131,7 @@
     .about_us{
         flex-direction: row;
         gap: 24px;
-        padding: 100px 60px 0;
+        padding: 100px 60px;
         max-width: 1440px;
         margin: 0 auto;
     }
@@ -146,15 +145,6 @@
     .about_second{
         width: 536px;
         height: 540px;
-        padding: 0 0;
-        margin: 0 0;
-        display: flex none;
-
     }
-    .about_img{
-        display: block;
-        max-width: 100%;
-        object-fit: cover;
-    }
-
+  
 }
