@@ -108,7 +108,7 @@
     .footer-contacts-email {
         font-size: 12px;
         }
-    .footer-polisy-text{
+    .footer-polisy-text, .footer-polisy-link{
         font-size: 10px;
     }
 }
