@@ -59,6 +59,33 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.labal_email {
+    position: relative;
+}
+
+.error_icon {
+    position: absolute;
+    right: 20px;
+    transform: translateY(-50%);
+    top: 50%;
+    fill: transparent;
+}
+
+.input:invalid:not(:placeholder-shown) {
+    border: 1px solid var(--error);
+    outline: transparent;
+    color: var(--error);
+}
+
+.input:valid:not(:placeholder-shown) {
+    border: 1px solid var(--blue-font);
+    outline: transparent;
+}
+
+.input:invalid:not(:placeholder-shown)+.error_icon {
+    fill: var(--error);
+}
+
 .input:focus {
     border-color: 1px solid var(--blue-font);
     outline: transparent;
@@ -91,10 +118,15 @@ img {
     line-height: 1.5;
     display: flex;
     gap: 8px;
+    cursor: pointer;
 }
 
 .custom_checkbox {
     fill: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1), background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox:checked + label > .custom_checkbox {
