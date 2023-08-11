@@ -88,14 +88,10 @@ img {
 }
 
 @media screen and (min-width: 1440px) {
-<<<<<<< Updated upstream
-=======
-
     .list-wrapper {
         width: 100%;
         max-width: 1320px;
     }
->>>>>>> Stashed changes
 
     .desktop-view {
         display: block;
