@@ -1,0 +1,160 @@
+.about_us{
+    background-color: var(--light-blue);
+}
+.about_first{
+    padding: 64px 16px;
+    max-width: 375px;
+    margin: 0 auto;
+    background-color: var(--light-blue);
+
+}
+
+.about_befor_text{
+    margin-bottom: 30px;
+    padding-left: 50px;
+    color: var(--blue-font);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5; 
+    position: relative;
+}
+
+.about_befor_text::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    left: 0;
+    right: 0;
+    bottom: 12px;
+    background-color: #0A224A;
+}
+
+
+.about_title{
+    color: var(--blue-font);
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase; 
+    margin-bottom: 30px;
+}
+.about_text{
+    color: var(--blue-font);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.about_list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about_item_title{
+    color: var(--blue-font);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase; 
+    margin-bottom: 14px;
+}
+.about_item_text{
+    color: var(--blue-font);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
+    width: 170px;
+    margin: 0 auto;
+}
+
+.about_second{
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 768px) {
+    .about_us{
+        background-color:#FFF;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about_first{
+        padding: 36px 64px;
+        max-width: 704px;
+    }
+    
+    .about_title{
+        font-size: 32px;
+        line-height: 1.41;
+    }
+    .about_text{
+        font-size: 18px;
+    }
+    
+    .about_list{
+        width: 100%;
+        flex-direction: row;
+        gap: 33px;
+        justify-content: space-between;
+    }
+
+    .about_item_text{
+        font-size: 18px;
+        width: calc((100%-66px)/3);
+    }
+    .about_second{
+        max-width: 704px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .about_us{
+        flex-direction: row;
+        gap: 24px;
+        padding: 100px 60px 0;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .about_first{
+        margin: 20px 0;
+        max-width: 760px;
+        flex-grow: 1;
+        padding: 36px 69px;
+    }
+    
+    .about_second{
+        width: 536px;
+        height: 540px;
+        padding: 0 0;
+        margin: 0 0;
+        display: flex none;
+
+    }
+    .about_img{
+        display: block;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+}
