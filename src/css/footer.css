@@ -162,12 +162,41 @@
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: 0.07em;
-
+    }
+}
+@media screen and (min-width:1440px){
+    .footer-navigation{
+        gap: 209px;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .footer-logo{
+        /* margin-bottom: 39px; */
+    }
+    .footer-content{
+        margin-bottom: 35px;
+    }
+    .footer-navigation-list{
+        flex-direction: row;
+        gap: 30px;
+        transform: translateY(-25%);
+    }
+    .footer-contacts{
+        top: 103px;
+        left: 60px;
+    }
+    .footer-contacts-list{
+        flex-wrap: wrap;
+        width: 820px;
+        height: 70px;
+        gap: 24px 87px;
+    }
+    .footer-contacts-text {
+        padding-bottom: 0;
+    }
+    .footer-content{
+        margin-bottom: 130px;
     }
     
-
-
-
-
 }
 
