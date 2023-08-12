@@ -49,6 +49,7 @@
     border: none;
     border-radius: 50%;
     outline: none;
+   
   }
   @media (min-width: 768px) {
     .menu-toggle {
@@ -71,7 +72,7 @@
     width: 100vw;
     height: 100vh;
     padding: 32px;
-    background-color: #3f51b5;
+    background-color: #fff;
     z-index: 999;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
@@ -83,22 +84,27 @@
     position: absolute;
     top: 16px;
     right: 16px;
-    color: #fff;
+    color:#0A224A;
   }
-  .mobile-menu {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  .mobile-menu{
+    margin-top: 114px;
+    outline: 2px solid red;
+  }
+  .link{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
   }
   .mobile-menu .link {
     display: block;
     padding: 10px;
-    color: #fff;
+    color:  #0A224A;
     text-decoration: none;
+    
   }
   /* // Mobile menu */
 .logo-navigation {
-    
+    outline: 2px solid red;
 }
 .logo{
 
