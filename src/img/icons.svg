@@ -1,13 +1,12 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 
-    <symbol id="burger-menu" viewBox="0 0 20 20">
-        <path
-          fill-rule="evenodd"
-          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-          clip-rule="evenodd"
-        ></path>
-      </symbol>
+<symbol id="burger-menu" viewBox="0 0 32 32">
+<path d="M28 13.3333H4" stroke="#0A224A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28 8H4" stroke="#0A224A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28 18.6667H4" stroke="#0A224A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28 24H4" stroke="#0A224A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
 
 <symbol id="icon-logo" viewBox="0 0 241 32">
 <path d="M0 31.964v-31.964h5.992l14.795 10.372h0.226l14.795-10.372h5.992v31.964h-7.153v-23.023l-10.148 6.795v16.228h-7.153v-16.228l-10.193-6.795v23.023h-7.153zM48.514 31.964v-31.964h7.153v31.964h-7.153zM62.364 31.964v-31.964h7.243l22.62 22.978v-22.978h7.153v31.964h-7.24l-22.626-23.023v23.023h-7.153zM106.076 31.964v-31.964h7.153v31.964h-7.153zM119.927 31.964v-31.964h5.992l14.797 10.372h0.224l14.797-10.372h5.992v31.964h-7.153v-23.023l-10.15 6.795v16.228h-7.153v-16.228l-10.193-6.795v23.023h-7.153zM165.76 31.964l14.394-31.964h11.042l14.396 31.964h-7.78l-3.040-6.75h-18.195l-3.040 6.75h-7.778zM179.172 19.401h13.009l-6.214-13.811h-0.584l-6.212 13.813zM209.623 31.964v-31.964h7.153v26.153h23.381v5.811h-30.534z"></path>
