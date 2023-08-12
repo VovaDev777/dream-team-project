@@ -49,8 +49,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.price-name:hover::after,
-.price-name:focus::after {
+.price-name:hover::after {
     transform: scaleX(1);
     transform-origin: left;
     transition-delay: 0.5s;
