@@ -1,0 +1,91 @@
+.price-box {
+    padding: 64px 0;
+}
+
+.price-item {
+    border-top: 1px  solid #0A224A;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    position: relative; 
+}
+
+.price-item:last-child {
+    border-bottom: 1px  solid #0A224A;
+}
+
+.price-num {
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; 
+    color: var(--blue-font);
+}
+
+.price-name {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--blue-font);
+    padding-left: 0px;
+    transition: all 250ms ease;
+}
+
+.price-name::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 49px;
+    transform: scaleX(0);
+    transform-origin: right;
+    width: 45px;
+    height: 3px;
+    background-color: var(--blue-font); 
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.price-name:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition-delay: 0.5s;
+}
+
+.price-name:hover {
+   padding-left: 70px;
+   transition-delay: 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+    .price-name {
+        font-size: 32px;
+        line-height: 1.4;
+    }
+
+    .price-num {
+        font-size: 18px;
+        line-height: 2.5;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .price-div {
+        max-width: 1098px;
+    }
+}
+
+
+
+
+
+
+
+  
+    
+  
+
+
