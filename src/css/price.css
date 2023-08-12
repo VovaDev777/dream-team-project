@@ -61,6 +61,23 @@
    transition-delay: 0.5s;
 }
 
+@media screen and (min-width: 768px) {
+    .price-name {
+        font-size: 32px;
+        line-height: 1.4;
+    }
+
+    .price-num {
+        font-size: 18px;
+        line-height: 2.5;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .price-div {
+        max-width: 1098px;
+    }
+}
 
 
 
