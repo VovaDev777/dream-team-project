@@ -67,6 +67,8 @@
     background-color: rgba(0, 0, 0, 0.1);
   }
   .menu-container {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     top: 0;
     left: 0;
@@ -88,7 +90,7 @@
   .header-mob-container{
     display: flex;
     padding: 40px 32px;
-    margin-bottom: 114px;
+    margin-bottom: auto;
     justify-content: flex-start;
     align-items: center;
     gap: 211px;
@@ -97,6 +99,7 @@
   .mobile-menu{
     display: flex;
     flex-direction: column;
+    margin-bottom: auto;
     align-items: center;
     gap: 17px;
   }
