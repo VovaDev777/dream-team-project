@@ -23,6 +23,7 @@
 @media only screen and (min-width: 1440px) {
   .mobile-menu-list {
     display: flex;
+    gap: 30px;
   }
 }
 .burger-btn-open{
@@ -86,10 +87,9 @@
   }
   .mobile-menu{
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    gap: 17px;
   }
   .link{
     font-size: 16px;
@@ -104,7 +104,7 @@
   }
   .header-mob-container{
     display: flex;
-    padding: 28px 16px;
+    padding: 40px 32px;
     margin-bottom: 114px;
     justify-content: flex-start;
     align-items: center;
