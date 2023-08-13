@@ -105,7 +105,8 @@
   .header-mob-container{
     display: flex;
     padding: 40px 32px;
-    margin-bottom: 114px;
+    /* margin-bottom: 114px; */
+    margin-bottom: auto;
     justify-content: flex-start;
     align-items: center;
     gap: 211px;
