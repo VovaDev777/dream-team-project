@@ -1,5 +1,9 @@
+
 .container{
     min-width: 320px;
+}
+header{
+  background-color: var(--light-blue);
 }
 @media only screen and (min-width: 375px) {
   .container {
@@ -11,6 +15,7 @@
     height: 70px;
     justify-content: space-between;
     align-items: center;
+   
 }
 .header-navigation {
     display: flex;
@@ -88,7 +93,7 @@
   }
   .header-mob-container{
     display: flex;
-    padding: 40px 32px;
+    padding: 28px 0;
     margin-bottom: auto;
     justify-content: flex-start;
     align-items: center;
