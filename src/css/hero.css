@@ -1,4 +1,4 @@
-.container {
+/* .container {
     max-width: 375px;
     padding: 0 16px;
     margin: 0 auto;
@@ -10,20 +10,20 @@ font-family: Playfair Display;
 font-size: 50px;
 font-style: normal;
 font-weight: 400;
-line-height: 75px; /* 150% */
+line-height: 75px; 150%
 text-transform: uppercase;
 position: absolute;
 }
 
-.image-hero-1 {
+.image-hero-1 { */
     /* width: 310px;
     height: 329px; */
-}
+/* }
 
-.image-hero-2 {
+.image-hero-2 { */
     /* width: 1302px; */
     /* height: 530px; */
-    display: inline-flex;
+    /* display: inline-flex;
 height: 530px;
 justify-content: flex-end;
 align-items: center;
@@ -66,8 +66,8 @@ font-family: Roboto;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 27px; /* 150% */
-padding-top: 59px;
+line-height: 27px; 150% */
+/* padding-top: 59px;
 padding-bottom: 30px;
 }
 
@@ -161,9 +161,9 @@ padding-bottom: 30px;
 font-family: Playfair Display;
 font-size: 28px;
 font-style: normal;
-font-weight: 400;
-line-height: 42px; /* 150% */
-text-transform: uppercase;
+font-weight: 400; */
+/* line-height: 42px; 150% */
+/* text-transform: uppercase;
 display: initial;
 position: absolute;
 padding-top: 140px;
@@ -193,7 +193,54 @@ padding-left: 16px;
     padding-bottom: 28px;
 }
 
+} */
+
+
+
+.hero {
+    padding: 140px 0 313px;
+    background-color: lightgray;
+    background-image: url(../img/hero-bg-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+.main-title-wrap {
+}
+.main-title {
+    max-width: 285px;
+    color: var(--blue-font);
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+.hero-subscripe-wrap {
+}
+.hero-text {
+    width: 343px;
+    color: var(--blue-font);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.hero-link {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 12px 65px;
+    background-color: var(--blue-font);
+}
+.hero-link:is(:hover, :focus){
+    background-color: var(--pressed-state);
+}
+
 
 
 
