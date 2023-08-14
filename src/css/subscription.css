@@ -48,6 +48,10 @@ img {
     margin-bottom: 30px;
 }
 
+.name_input {
+    position: relative;
+}
+
 .input {
     font-family: var(--main-font);
     width: 100%;
@@ -59,15 +63,10 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.labal_email {
-    position: relative;
-}
-
 .error_icon {
     position: absolute;
     right: 20px;
-    transform: translateY(-50%);
-    top: 50%;
+    transform: translateY(50%);
     fill: transparent;
 }
 
@@ -167,9 +166,13 @@ img {
         max-width: 536px;
     }
 
-    .input {
-        max-width: 536px;
+    .name_input {
+         max-width: 536px;
     }
+
+    /* .input {
+        max-width: 536px;
+    } */
 
     .label_text {
         font-size: 18px;
