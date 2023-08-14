@@ -1,4 +1,4 @@
-<section class="subscription_section">
+<section class="subscription_section" id="subscription">
   <div class="container wrap_desktop">
     <div>
       <h2 class="title_subscription">Newsletter</h2>
@@ -6,7 +6,8 @@
         Every week we will send you new designs and information about sales.
       </p>
       <form>
-        <label class="labal_email">
+        <label for="user-name"> </label>
+        <div class="name_input">
           <input
             class="input"
             name="user-name"
@@ -15,13 +16,16 @@
             placeholder="Name"
             minlength="2"
             maxlength="16"
+            id="user-name"
           />
           <svg class="error_icon" width="24" height="24" class="svg_check">
             <use href="./img/icons.svg#icon-baseline-error"></use>
           </svg>
-        </label>
-        <label class="labal_email">
+        </div>
+        <label for="user-email"> </label>
+        <div class="name_input">
           <input
+            id="user-email"
             class="input"
             name="user-email"
             type="email"
@@ -32,7 +36,8 @@
           <svg class="error_icon" width="24" height="24" class="svg_check">
             <use href="./img/icons.svg#icon-baseline-error"></use>
           </svg>
-        </label>
+        </div>
+
         <div class="wrap_checkbox">
           <input
             class="checkbox visually-hidden"
