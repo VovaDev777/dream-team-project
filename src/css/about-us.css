@@ -1,12 +1,12 @@
 .about_us{
     background-color: var(--light-blue);
+    padding-top: 64px;
 }
 .about_first{
-    padding: 64px 16px;
+    padding: 0 16px 64px;
     max-width: 375px;
     margin: 0 auto;
     background-color: var(--light-blue);
-
 }
 
 .about_befor_text{
@@ -90,10 +90,12 @@
 @media screen and (min-width: 768px) {
     .about_us{
         background-color:#FFF;
-        padding-top: 100px;
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
         gap: 30px;
+        max-width: 768px;
+        padding: 100px 32px 0;
     }
 
     .about_first{
@@ -133,9 +135,9 @@
         padding: 100px 60px 0;
         max-width: 1440px;
         margin: 0 auto;
+        align-items: center;
     }
     .about_first{
-        margin: 20px 0;
         max-width: 760px;
         flex-grow: 1;
         padding: 36px 69px;
