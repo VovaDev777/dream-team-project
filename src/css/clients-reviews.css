@@ -106,7 +106,7 @@
     }
     .people-item {
         max-width: 344px;
-        height: 319px;
+        /* height: 319px; */
     }
     .name {
         font-size: 20px;
@@ -139,7 +139,7 @@
     }
     .people-item {
         max-width: 424px;
-        height: 306px;
+        /* height: 306px; */
         padding: 32px;
     }
     .name {
