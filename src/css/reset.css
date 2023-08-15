@@ -36,3 +36,24 @@ img {
 html {
   scroll-behavior: smooth;
 }
+.go-top {
+  position: fixed; 
+  right: 50px; 
+  bottom:50px; 
+  cursor: pointer; 
+  display: none;
+  border-radius: 50%;
+  font-size: 20px; 
+  color: var(--blue-font);
+  border: 1px solid var(--blue-font);
+  background-color: #fff;
+  padding: 15px 15px;
+}
+.go-top:hover {
+  color: #fff;
+  border: 1px solid var(--pressed-state);
+  background-color: var(--pressed-state);
+}
+.go-top--show {
+  display: block;
+}
