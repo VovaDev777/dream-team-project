@@ -81,6 +81,7 @@ header{
     transform: translateX(-100%);
     transition: transform 250ms ease-in-out;
   }
+
   .menu-container.is-open {
     transform: translateX(0);
   }
